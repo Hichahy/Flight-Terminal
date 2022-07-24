@@ -16,7 +16,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #c26d6d;
+  background-image: url("./airport.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 header {
@@ -32,6 +34,7 @@ header {
 .departures table {
   background-color: #2e2e2e;
   text-align: left;
+  min-height: 305px;
 }
 
 .departures table td {
