@@ -64,4 +64,39 @@ header {
 #remarks {
   width: 260px;
 }
+
+.flip {
+  -webkit-animation: 0.5s linear flipping;
+          animation: 0.5s linear flipping;
+}
+
+@-webkit-keyframes flipping {
+  0% {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+  50% {
+    -webkit-transform: rotateX(98deg);
+            transform: rotateX(98deg);
+  }
+  100% {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+}
+
+@keyframes flipping {
+  0% {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+  50% {
+    -webkit-transform: rotateX(98deg);
+            transform: rotateX(98deg);
+  }
+  100% {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+}
 /*# sourceMappingURL=style.css.map */
