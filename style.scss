@@ -1,3 +1,61 @@
-body {
-    background-color: greenyellow;
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;600&family=Nunito+Sans:wght@300&family=Ubuntu+Condensed&display=swap");
+
+* {
+  font-family: "Ubuntu Condensed", sans-serif;
+  color: white;
+  font-size: 35px;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: rgb(194, 109, 109);
+}
+
+header {
+  padding: 10px;
+}
+
+.departures {
+  background-color: rgb(6, 6, 6);
+  border-radius: 10px;
+  padding: 10px;
+
+  table {
+    background-color: rgb(46, 46, 46);
+    text-align: left;
+
+    td {
+      height: 50px;
+    }
+
+    div {
+      border: solid 4px rgb(26, 26, 25);
+      background-color: black;
+      float: left;
+      height: 40px;
+    }
+  }
+}
+
+#time {
+  width: 160px;
+}
+
+#destination {
+  width: 260px;
+}
+
+#flight {
+  width: 205px;
+}
+
+#gate {
+  width: 135px;
+}
+
+#remarks {
+    width: 260px;
+  }
